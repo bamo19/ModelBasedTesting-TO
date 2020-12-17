@@ -1,0 +1,886 @@
+{
+  "uid": "U100",
+  "typeCode": "scxml",
+  "desc": "Cloned from templateBasic model",
+  "notepad": "",
+  "childrenStates": [
+    {
+      "readOnly": false,
+      "typeCode": "state",
+      "desc": "",
+      "uid": "U2105b6d7",
+      "notepad": "",
+      "stateID": "End",
+      "isFinal": true,
+      "isInitial": false,
+      "nodeType": "FINAL",
+      "color": "",
+      "textColor": "",
+      "stereotype": "",
+      "dataset": "",
+      "subModel": "",
+      "hideSubstates": false,
+      "maxMillis": 2147483647,
+      "activateType": "",
+      "activateThreshold": 1,
+      "firingType": "RANDOM",
+      "childrenStates": [],
+      "transitions": [],
+      "position": {
+        "left": 1298.0,
+        "top": 312.0,
+        "width": 75.0,
+        "height": 50.0,
+        "nameOffset": 10.0
+      },
+      "css": {
+        "classes": "name-top"
+      }
+    },
+    {
+      "readOnly": false,
+      "typeCode": "state",
+      "desc": "",
+      "uid": "U7eae1dee",
+      "notepad": "",
+      "stateID": "s_addedMobileToMyBasket",
+      "isFinal": false,
+      "isInitial": false,
+      "nodeType": "STATE",
+      "color": "",
+      "textColor": "",
+      "stereotype": "",
+      "dataset": "",
+      "subModel": "",
+      "hideSubstates": false,
+      "maxMillis": 2147483647,
+      "activateType": "",
+      "activateThreshold": 1,
+      "firingType": "RANDOM",
+      "childrenStates": [],
+      "transitions": [
+        {
+          "readOnly": false,
+          "typeCode": "transition",
+          "desc": "",
+          "uid": "Uf6d0fd51",
+          "notepad": "",
+          "targetUID": "U2105b6d7",
+          "event": "t_close",
+          "weight": 5,
+          "traverseTimes": 1,
+          "dataset": "",
+          "hideName": false,
+          "posInfo": {
+            "startDir": "right",
+            "endDir": "up",
+            "posList": [
+              {
+                "left": 1265.0,
+                "top": 126.0
+              },
+              {
+                "left": 1311.0,
+                "top": 126.0
+              },
+              {
+                "left": 1311.0,
+                "top": 228.0
+              },
+              {
+                "left": 1322.0,
+                "top": 228.0
+              },
+              {
+                "left": 1322.0,
+                "top": 311.0
+              }
+            ],
+            "label": {
+              "left": 57,
+              "top": 19,
+              "width": 133,
+              "height": 25
+            }
+          },
+          "css": {},
+          "stereotype": "",
+          "guard": "",
+          "guardHint": "",
+          "satisfyingHint": "",
+          "maxMillis": 2147483647,
+          "subModelFinalStateUID": ""
+        },
+        {
+          "readOnly": false,
+          "typeCode": "transition",
+          "desc": "",
+          "uid": "U9fcd2771",
+          "notepad": "",
+          "targetUID": "Udf7e1659",
+          "event": "t_removeMobileFromBasket",
+          "weight": 5,
+          "traverseTimes": 1,
+          "dataset": "",
+          "hideName": false,
+          "posInfo": {
+            "startDir": "down",
+            "endDir": "up",
+            "posList": [
+              {
+                "left": 1108.0,
+                "top": 136.0
+              },
+              {
+                "left": 1108.0,
+                "top": 179.0
+              },
+              {
+                "left": 1073.0,
+                "top": 179.0
+              },
+              {
+                "left": 1073.0,
+                "top": 256.0
+              }
+            ],
+            "label": {
+              "left": -13,
+              "top": 64,
+              "width": 75,
+              "height": 25
+            }
+          },
+          "css": {},
+          "stereotype": "",
+          "guard": "",
+          "guardHint": "",
+          "satisfyingHint": "",
+          "maxMillis": 2147483647,
+          "subModelFinalStateUID": ""
+        }
+      ],
+      "position": {
+        "left": 1088.0,
+        "top": 99.0,
+        "width": 179.0,
+        "height": 38.0
+      },
+      "css": {
+        "classes": "name-top"
+      }
+    },
+    {
+      "readOnly": false,
+      "typeCode": "state",
+      "desc": "",
+      "uid": "U15a5ab17",
+      "notepad": "",
+      "stateID": "s_digikalaSite",
+      "isFinal": false,
+      "isInitial": false,
+      "nodeType": "STATE",
+      "color": "",
+      "textColor": "",
+      "stereotype": "",
+      "dataset": "",
+      "subModel": "",
+      "hideSubstates": false,
+      "maxMillis": 2147483647,
+      "activateType": "",
+      "activateThreshold": 1,
+      "firingType": "RANDOM",
+      "childrenStates": [],
+      "transitions": [
+        {
+          "readOnly": false,
+          "typeCode": "transition",
+          "desc": "",
+          "uid": "U49383f78",
+          "notepad": "",
+          "targetUID": "Uf8474799",
+          "event": "t_searchMobile",
+          "weight": 5,
+          "traverseTimes": 1,
+          "dataset": "",
+          "hideName": false,
+          "posInfo": {
+            "startDir": "up",
+            "endDir": "left",
+            "posList": [
+              {
+                "left": 253.0,
+                "top": 250.0
+              },
+              {
+                "left": 253.0,
+                "top": 166.0
+              },
+              {
+                "left": 339.0,
+                "top": 166.0
+              }
+            ],
+            "label": {
+              "left": -105,
+              "top": -126,
+              "width": 117,
+              "height": 34
+            }
+          },
+          "css": {},
+          "stereotype": "",
+          "guard": "",
+          "guardHint": "",
+          "satisfyingHint": "",
+          "maxMillis": 2147483647,
+          "subModelFinalStateUID": ""
+        },
+        {
+          "readOnly": false,
+          "typeCode": "transition",
+          "desc": "",
+          "uid": "U45dee476",
+          "notepad": "",
+          "targetUID": "U71eaf138",
+          "event": "t_TVSearch",
+          "weight": 5,
+          "traverseTimes": 1,
+          "dataset": "",
+          "hideName": false,
+          "posInfo": {
+            "startDir": "right",
+            "endDir": "left",
+            "posList": [
+              {
+                "left": 251.0,
+                "top": 326.0
+              },
+              {
+                "left": 248.0,
+                "top": 326.0
+              },
+              {
+                "left": 248.0,
+                "top": 433.0
+              },
+              {
+                "left": 333.0,
+                "top": 433.0
+              }
+            ],
+            "label": {
+              "left": 57,
+              "top": 19,
+              "width": 133,
+              "height": 25
+            }
+          },
+          "css": {},
+          "stereotype": "",
+          "guard": "",
+          "guardHint": "",
+          "satisfyingHint": "",
+          "maxMillis": 2147483647,
+          "subModelFinalStateUID": ""
+        }
+      ],
+      "position": {
+        "left": 153.0,
+        "top": 251.0,
+        "width": 100.0,
+        "height": 75.0
+      },
+      "css": {
+        "classes": "name-top"
+      }
+    },
+    {
+      "readOnly": false,
+      "typeCode": "state",
+      "desc": "",
+      "uid": "U632336d8",
+      "notepad": "",
+      "stateID": "s_isLGTVSearched",
+      "isFinal": false,
+      "isInitial": false,
+      "nodeType": "STATE",
+      "color": "",
+      "textColor": "",
+      "stereotype": "",
+      "dataset": "",
+      "subModel": "",
+      "hideSubstates": false,
+      "maxMillis": 2147483647,
+      "activateType": "",
+      "activateThreshold": 1,
+      "firingType": "RANDOM",
+      "childrenStates": [],
+      "transitions": [
+        {
+          "readOnly": false,
+          "typeCode": "transition",
+          "desc": "",
+          "uid": "U560fdf3a",
+          "notepad": "",
+          "targetUID": "Uc29308d6",
+          "event": "t_LGTVDetail",
+          "weight": 5,
+          "traverseTimes": 1,
+          "dataset": "",
+          "hideName": false,
+          "posInfo": {
+            "startDir": "right",
+            "endDir": "left",
+            "posList": [
+              {
+                "left": 696.0,
+                "top": 460.0
+              },
+              {
+                "left": 748.0,
+                "top": 460.0
+              },
+              {
+                "left": 748.0,
+                "top": 414.0
+              },
+              {
+                "left": 831.0,
+                "top": 414.0
+              }
+            ],
+            "label": {
+              "left": 22,
+              "top": -89,
+              "width": 133,
+              "height": 25
+            }
+          },
+          "css": {},
+          "stereotype": "",
+          "guard": "",
+          "guardHint": "",
+          "satisfyingHint": "",
+          "maxMillis": 2147483647,
+          "subModelFinalStateUID": ""
+        }
+      ],
+      "position": {
+        "left": 567.0,
+        "top": 392.0,
+        "width": 131.0,
+        "height": 68.0
+      },
+      "css": {
+        "classes": "name-top"
+      }
+    },
+    {
+      "readOnly": false,
+      "typeCode": "state",
+      "desc": "",
+      "uid": "Uf8474799",
+      "notepad": "",
+      "stateID": "s_isMobileSearched",
+      "isFinal": false,
+      "isInitial": false,
+      "nodeType": "STATE",
+      "color": "",
+      "textColor": "",
+      "stereotype": "",
+      "dataset": "",
+      "subModel": "",
+      "hideSubstates": false,
+      "maxMillis": 2147483647,
+      "activateType": "",
+      "activateThreshold": 1,
+      "firingType": "RANDOM",
+      "childrenStates": [],
+      "transitions": [
+        {
+          "readOnly": false,
+          "typeCode": "transition",
+          "desc": "",
+          "uid": "U84efd782",
+          "notepad": "",
+          "targetUID": "Ufb53a113",
+          "event": "t_mobileDetail",
+          "weight": 5,
+          "traverseTimes": 1,
+          "dataset": "",
+          "hideName": false,
+          "posInfo": {
+            "startDir": "right",
+            "endDir": "left",
+            "posList": [
+              {
+                "left": 476.0,
+                "top": 157.0
+              },
+              {
+                "left": 638.0,
+                "top": 157.0
+              },
+              {
+                "left": 638.0,
+                "top": 44.0
+              },
+              {
+                "left": 764.0,
+                "top": 44.0
+              }
+            ],
+            "label": {
+              "left": 57,
+              "top": 19,
+              "width": 133,
+              "height": 25
+            }
+          },
+          "css": {},
+          "stereotype": "",
+          "guard": "",
+          "guardHint": "",
+          "satisfyingHint": "",
+          "maxMillis": 2147483647,
+          "subModelFinalStateUID": ""
+        }
+      ],
+      "position": {
+        "left": 341.0,
+        "top": 109.0,
+        "width": 137.0,
+        "height": 60.0
+      },
+      "css": {
+        "classes": "name-top"
+      }
+    },
+    {
+      "readOnly": false,
+      "typeCode": "state",
+      "desc": "",
+      "uid": "U71eaf138",
+      "notepad": "",
+      "stateID": "s_isTVSearched",
+      "isFinal": false,
+      "isInitial": false,
+      "nodeType": "STATE",
+      "color": "",
+      "textColor": "",
+      "stereotype": "",
+      "dataset": "",
+      "subModel": "",
+      "hideSubstates": false,
+      "maxMillis": 2147483647,
+      "activateType": "",
+      "activateThreshold": 1,
+      "firingType": "RANDOM",
+      "childrenStates": [],
+      "transitions": [
+        {
+          "readOnly": false,
+          "typeCode": "transition",
+          "desc": "",
+          "uid": "U13edb11d",
+          "notepad": "",
+          "targetUID": "U632336d8",
+          "event": "t_LGTVSearch",
+          "weight": 5,
+          "traverseTimes": 1,
+          "dataset": "",
+          "hideName": false,
+          "posInfo": {
+            "startDir": "right",
+            "endDir": "left",
+            "posList": [
+              {
+                "left": 460.0,
+                "top": 427.0
+              },
+              {
+                "left": 499.0,
+                "top": 427.0
+              },
+              {
+                "left": 499.0,
+                "top": 435.0
+              },
+              {
+                "left": 565.0,
+                "top": 435.0
+              }
+            ],
+            "label": {
+              "left": 57,
+              "top": 53,
+              "width": 133,
+              "height": 25
+            }
+          },
+          "css": {},
+          "stereotype": "",
+          "guard": "",
+          "guardHint": "",
+          "satisfyingHint": "",
+          "maxMillis": 2147483647,
+          "subModelFinalStateUID": ""
+        }
+      ],
+      "position": {
+        "left": 335.0,
+        "top": 389.0,
+        "width": 127.0,
+        "height": 70.0
+      },
+      "css": {
+        "classes": "name-top"
+      }
+    },
+    {
+      "readOnly": false,
+      "typeCode": "state",
+      "desc": "",
+      "uid": "Ufb53a113",
+      "notepad": "",
+      "stateID": "s_mobileDetailPage",
+      "isFinal": false,
+      "isInitial": false,
+      "nodeType": "STATE",
+      "color": "",
+      "textColor": "",
+      "stereotype": "",
+      "dataset": "",
+      "subModel": "",
+      "hideSubstates": false,
+      "maxMillis": 2147483647,
+      "activateType": "",
+      "activateThreshold": 1,
+      "firingType": "RANDOM",
+      "childrenStates": [],
+      "transitions": [
+        {
+          "readOnly": false,
+          "typeCode": "transition",
+          "desc": "",
+          "uid": "Uda9ec210",
+          "notepad": "",
+          "targetUID": "U7eae1dee",
+          "event": "t_addToBasket",
+          "weight": 5,
+          "traverseTimes": 1,
+          "dataset": "",
+          "hideName": false,
+          "posInfo": {
+            "startDir": "right",
+            "endDir": "left",
+            "posList": [
+              {
+                "left": 897.0,
+                "top": 118.0
+              },
+              {
+                "left": 1041.0,
+                "top": 118.0
+              },
+              {
+                "left": 1041.0,
+                "top": 105.0
+              },
+              {
+                "left": 1086.0,
+                "top": 105.0
+              }
+            ],
+            "label": {
+              "left": 57,
+              "top": -50,
+              "width": 133,
+              "height": 25
+            }
+          },
+          "css": {},
+          "stereotype": "",
+          "guard": "",
+          "guardHint": "",
+          "satisfyingHint": "",
+          "maxMillis": 2147483647,
+          "subModelFinalStateUID": ""
+        }
+      ],
+      "position": {
+        "left": 765.0,
+        "top": 44.0,
+        "width": 134.0,
+        "height": 74.0
+      },
+      "css": {
+        "classes": "name-top"
+      }
+    },
+    {
+      "readOnly": false,
+      "typeCode": "state",
+      "desc": "",
+      "uid": "Uc29308d6",
+      "notepad": "",
+      "stateID": "s_TVDetailPage",
+      "isFinal": false,
+      "isInitial": false,
+      "nodeType": "STATE",
+      "color": "",
+      "textColor": "",
+      "stereotype": "",
+      "dataset": "",
+      "subModel": "",
+      "hideSubstates": false,
+      "maxMillis": 2147483647,
+      "activateType": "",
+      "activateThreshold": 1,
+      "firingType": "RANDOM",
+      "childrenStates": [],
+      "transitions": [
+        {
+          "readOnly": false,
+          "typeCode": "transition",
+          "desc": "",
+          "uid": "U05b921bf",
+          "notepad": "",
+          "targetUID": "U15a5ab17",
+          "event": "t_gotoHomePage",
+          "weight": 5,
+          "traverseTimes": 1,
+          "dataset": "",
+          "hideName": false,
+          "posInfo": {
+            "startDir": "up",
+            "endDir": "right",
+            "posList": [
+              {
+                "left": 863.0,
+                "top": 413.0
+              },
+              {
+                "left": 863.0,
+                "top": 280.0
+              },
+              {
+                "left": 251.0,
+                "top": 280.0
+              }
+            ],
+            "label": {
+              "left": -299,
+              "top": -131,
+              "width": 75,
+              "height": 25
+            }
+          },
+          "css": {},
+          "stereotype": "",
+          "guard": "",
+          "guardHint": "",
+          "satisfyingHint": "",
+          "maxMillis": 2147483647,
+          "subModelFinalStateUID": ""
+        }
+      ],
+      "position": {
+        "left": 833.0,
+        "top": 414.0,
+        "width": 133.0,
+        "height": 70.0
+      },
+      "css": {
+        "classes": "name-top"
+      }
+    },
+    {
+      "readOnly": false,
+      "typeCode": "state",
+      "desc": "",
+      "uid": "Ubf084138",
+      "notepad": "",
+      "stateID": "Start",
+      "isFinal": false,
+      "isInitial": true,
+      "nodeType": "INITIAL",
+      "color": "",
+      "textColor": "",
+      "stereotype": "",
+      "dataset": "",
+      "subModel": "",
+      "hideSubstates": false,
+      "maxMillis": 2147483647,
+      "activateType": "",
+      "activateThreshold": 1,
+      "firingType": "RANDOM",
+      "childrenStates": [],
+      "transitions": [
+        {
+          "readOnly": false,
+          "typeCode": "transition",
+          "desc": "",
+          "uid": "U37a9541c",
+          "notepad": "",
+          "targetUID": "U15a5ab17",
+          "event": "t_gotoDigikalaSite",
+          "weight": 5,
+          "traverseTimes": 1,
+          "dataset": "",
+          "hideName": false,
+          "posInfo": {
+            "startDir": "down",
+            "endDir": "down",
+            "posList": [
+              {
+                "left": 68.0,
+                "top": 306.0
+              },
+              {
+                "left": 68.0,
+                "top": 352.0
+              },
+              {
+                "left": 153.0,
+                "top": 352.0
+              },
+              {
+                "left": 153.0,
+                "top": 325.0
+              }
+            ],
+            "label": {
+              "left": 47,
+              "top": 57,
+              "width": 75,
+              "height": 25
+            }
+          },
+          "css": {},
+          "stereotype": "",
+          "guard": "",
+          "guardHint": "",
+          "satisfyingHint": "",
+          "maxMillis": 2147483647,
+          "subModelFinalStateUID": ""
+        }
+      ],
+      "position": {
+        "left": 26.0,
+        "top": 257.0,
+        "width": 75.0,
+        "height": 50.0,
+        "nameOffset": 15.0
+      },
+      "css": {
+        "classes": "name-top"
+      }
+    },
+    {
+      "readOnly": false,
+      "typeCode": "state",
+      "desc": "",
+      "uid": "Udf7e1659",
+      "notepad": "",
+      "stateID": "s_emptyBasket",
+      "isFinal": false,
+      "isInitial": false,
+      "nodeType": "STATE",
+      "color": "",
+      "textColor": "",
+      "stereotype": "",
+      "dataset": "",
+      "subModel": "",
+      "hideSubstates": false,
+      "maxMillis": 2147483647,
+      "activateType": "",
+      "activateThreshold": 1,
+      "firingType": "RANDOM",
+      "childrenStates": [],
+      "transitions": [
+        {
+          "readOnly": false,
+          "typeCode": "transition",
+          "desc": "",
+          "uid": "U8fce279e",
+          "notepad": "",
+          "targetUID": "Ufb53a113",
+          "event": "t_backToDetail",
+          "weight": 5,
+          "traverseTimes": 1,
+          "dataset": "",
+          "hideName": false,
+          "posInfo": {
+            "startDir": "left",
+            "endDir": "down",
+            "posList": [
+              {
+                "left": 1001.0,
+                "top": 257.0
+              },
+              {
+                "left": 815.0,
+                "top": 257.0
+              },
+              {
+                "left": 815.0,
+                "top": 117.0
+              }
+            ],
+            "label": {
+              "left": -129,
+              "top": -34,
+              "width": 75,
+              "height": 25
+            }
+          },
+          "css": {},
+          "stereotype": "",
+          "guard": "",
+          "guardHint": "",
+          "satisfyingHint": "",
+          "maxMillis": 2147483647,
+          "subModelFinalStateUID": ""
+        }
+      ],
+      "position": {
+        "left": 1003.0,
+        "top": 257.0,
+        "width": 100.0,
+        "height": 75.0
+      },
+      "css": {
+        "classes": "name-top"
+      }
+    }
+  ],
+  "modelName": "DigikalaFullTest",
+  "version": "1.0",
+  "versionAUT": "",
+  "versionTO": "",
+  "versionReq": "",
+  "buildNum": 0,
+  "mbtNode": {
+    "uid": "U120",
+    "mode": "Optimal",
+    "stopCond": {
+      "stopAtFinalOnly": true
+    },
+    "execThreadNum": 1,
+    "threadSpreadDelay": 0,
+    "seqParams": ""
+  },
+  "miscNode": {
+    "typeCode": "misc",
+    "canvasWidth": 1500,
+    "canvasHeight": 1000,
+    "maxTestCaseNum": 100,
+    "maxHistoryStat": 5,
+    "swimlanes": [],
+    "boxes": []
+  },
+  "pluginList": [],
+  "modelType": "FSM"
+}
